@@ -1,0 +1,27 @@
+{
+  "command": "/home/ops/verdi/ops/measures/scripts/generate_airs_mls_matchup.sh",
+  "imported_worker_files": {
+    "/home/ops/.netrc": ["/home/ops/.netrc"],
+    "/home/ops/.aws": ["/home/ops/.aws", "ro"],
+    "/home/ops/verdi/etc/measures_settings.cfg": "/home/ops/verdi/ops/measures/settings.cfg"
+  },
+  "recommended-queues": [ "msas-job_worker-large" ],
+  "params": [
+    {   
+      "name": "mat_url",
+      "destination": "localize"
+    },
+    {   
+      "name": "joined_url",
+      "destination": "localize"
+    },
+    {   
+      "name": "mat_file",
+      "destination": "positional"
+    },
+    {
+      "name": "joined_file",
+      "destination": "positional"
+    }
+  ]
+}

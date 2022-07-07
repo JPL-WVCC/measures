@@ -1,0 +1,15 @@
+{
+  "command": "/home/ops/verdi/ops/measures/scripts/parse_staged_ceres_email.sh",
+  "imported_worker_files": {
+    "/home/ops/.netrc": ["/home/ops/.netrc"],
+    "/home/ops/.aws": ["/home/ops/.aws", "ro"],
+    "/home/ops/verdi/etc/measures_settings.cfg": "/home/ops/verdi/ops/measures/settings.cfg"
+  },
+  "recommended-queues": [ "factotum-job_worker-small" ],
+  "params": [
+    { 
+      "name": "email_body",
+      "destination": "context"
+    }
+  ]
+}

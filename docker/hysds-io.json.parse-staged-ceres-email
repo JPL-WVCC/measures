@@ -1,0 +1,9 @@
+{
+  "label": "Parse Staged CERES data from email",
+  "params": [
+    { 
+      "name": "email_body",
+      "from": "submitter"
+    }
+  ]
+}

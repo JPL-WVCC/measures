@@ -1,0 +1,22 @@
+{
+  "label": "AIRS-MLS Matlab to NetCDF Conversion",
+  "submission_type":"individual",
+  "params": [
+    {
+      "name": "mat_url",
+      "from": "submitter"
+    },
+    {
+      "name": "mat_file",
+      "from": "submitter"
+    },
+    {
+      "name": "joined_url",
+      "from": "submitter"
+    },
+    {
+      "name": "joined_file",
+      "from": "submitter"
+    }
+  ]
+}

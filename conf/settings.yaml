@@ -1,0 +1,14 @@
+#GRQ_URL: http://{{ GRQ_ES_PVT_IP }}:9200/
+GRQ_URL: http://172.31.39.22:9200/
+GRQ_INDEX_PREFIX: grq
+MOZART_URL: amqp://guest:guest@{{ MOZART_RABBIT_PVT_IP }}:5672//
+DATASETS_CONFIG: /home/ops/verdi/etc/datasets.json
+STAGING_AREA: s3://{{ DATASET_S3_ENDPOINT }}:80/{{ DATASET_BUCKET }}/staging_area
+
+# backoff settings
+BACKOFF_MAX_VALUE: 64
+BACKOFF_MAX_TRIES: 10
+
+# ancillary datasets not ingested in grq
+MSAS_ANC1_URL: http://grfn-v2-ops-product-bucket.s3-website-us-west-2.amazonaws.com/datasets/dem/SRTM1_v3/
+MSAS_ANC2_URL: http://grfn-v2-ops-product-bucket.s3-website-us-west-2.amazonaws.com/datasets/dem/usgs_mirror/SRTMSWBD.003/2000.02.11/

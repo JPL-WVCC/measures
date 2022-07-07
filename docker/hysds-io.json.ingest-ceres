@@ -1,0 +1,21 @@
+{
+  "label": "Ingest CERES",
+  "params": [
+    {
+      "name": "id",
+      "from": "submitter"
+    },
+    {
+      "name": "raw_url",
+      "from": "submitter"
+    },
+    {
+      "name": "raw_file",
+      "from": "submitter"
+    },
+    {
+      "name": "prod_met",
+      "from": "submitter"
+    }
+  ]
+}

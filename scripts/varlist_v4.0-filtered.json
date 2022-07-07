@@ -1,0 +1,399 @@
+[
+  {
+    "instrument": "CloudSat_and_CALIPSO", 
+    "datasets": [
+      {
+        "variables": [
+          "CloudFraction", 
+          "CloudLayers", 
+          "Data_quality", 
+          "Data_status", 
+          "FlagBase", 
+          "FlagTop", 
+          "Height", 
+          "Latitude", 
+          "LayerBase", 
+          "LayerTop", 
+          "Longitude", 
+          "UncertaintyCF", 
+          "nbin:2B-GEOPROF-LIDAR", 
+          "ncloud:2B-GEOPROF-LIDAR", 
+          "nray:2B-GEOPROF-LIDAR"
+        ], 
+        "dataset": "2B-GEOPROF-LIDAR"
+      }
+    ]
+  }, 
+  {
+    "instrument": "AMSR-E", 
+    "datasets": [
+      {
+        "variables": [
+          "Latitude", 
+          "Longitude", 
+          "Low_res_sst", 
+          "Med_res_vapor", 
+          "Time"
+        ], 
+        "dataset": "Swath1"
+      }, 
+      {
+        "variables": [
+          "Latitude", 
+          "Longitude", 
+          "Rain Rate", 
+          "Rain Status", 
+          "Rain Type", 
+          "Surface Type", 
+          "Time"
+        ], 
+        "dataset": "L2B Rainfall Products"
+      }
+    ]
+  }, 
+  {
+    "instrument": "CloudSat", 
+    "datasets": [
+      {
+        "variables": [
+          "CPR_Cloud_mask", 
+          "MODIS_Cloud_Fraction", 
+          "MODIS_scene_char", 
+          "MODIS_scene_var"
+        ], 
+        "dataset": "2B-GEOPROF"
+      }, 
+      {
+        "variables": [
+          "DEM_elevation", 
+          "Data_quality", 
+          "Data_status", 
+          "Data_targetID", 
+          "Height", 
+          "Latitude", 
+          "Longitude", 
+          "UTC_start", 
+          "Vertical_binsize", 
+          "cloud_scenario", 
+          "nbin:2B-CLDCLASS", 
+          "nray:2B-CLDCLASS"
+        ], 
+        "dataset": "2B-CLDCLASS"
+      }, 
+      {
+        "variables": [], 
+        "dataset": "1B-CPR"
+      }, 
+      {
+        "variables": [
+          "Cloud_flag", 
+          "Cloud_top_highest_layer", 
+          "Cloud_top_lowest_layer", 
+          "Data_quality", 
+          "Data_status", 
+          "Freezing_level", 
+          "Latitude", 
+          "Longitude", 
+          "Phase_flag", 
+          "Precip_flag", 
+          "Precip_rate", 
+          "SST", 
+          "Surface_wind"
+        ], 
+        "dataset": "2C-PRECIP-COLUMN"
+      }, 
+      {
+        "variables": [
+          "Cloud_Mask", 
+          "MODIS_granule_index", 
+          "MODIS_latitude", 
+          "MODIS_longitude", 
+          "MODIS_pixel_index_across_track", 
+          "MODIS_pixel_index_along_track", 
+          "mod_1km:MODIS-AUX", 
+          "mod_granules:MODIS-AUX"
+        ], 
+        "dataset": "MODIS-AUX"
+      }, 
+      {
+        "variables": [
+          "Data_quality", 
+          "Height", 
+          "Navigation_land_sea_flag", 
+          "cloud_liquid_water", 
+          "precip_ice_water", 
+          "precip_liquid_water"
+        ], 
+        "dataset": "2C-RAIN-PROFILE"
+      }, 
+      {
+        "variables": [
+          "EC_height", 
+          "Latitude", 
+          "Longitude", 
+          "Ozone", 
+          "Pressure", 
+          "Skin_temperature", 
+          "Specific_humidity", 
+          "Surface_pressure", 
+          "Temperature", 
+          "Temperature_2m", 
+          "nbin:ECMWF-AUX", 
+          "nray:ECMWF-AUX"
+        ], 
+        "dataset": "ECMWF-AUX"
+      }, 
+      {
+        "variables": [
+          "Data_quality", 
+          "Height", 
+          "Latitude", 
+          "Longitude", 
+          "layer_optical_depth", 
+          "mean_effective_radius", 
+          "mean_effective_radius_uncert", 
+          "nbin:2B-TAU", 
+          "nray:2B-TAU", 
+          "status", 
+          "total_optical_depth", 
+          "total_optical_depth_uncert"
+        ], 
+        "dataset": "2B-TAU"
+      }, 
+      {
+        "variables": [
+          "CloudFraction", 
+          "CloudLayers", 
+          "Data_quality", 
+          "Data_status", 
+          "FlagBase", 
+          "FlagTop", 
+          "Height", 
+          "Latitude", 
+          "LayerBase", 
+          "LayerTop", 
+          "Longitude", 
+          "UncertaintyCF", 
+          "nbin:2B-GEOPROF-LIDAR", 
+          "ncloud:2B-GEOPROF-LIDAR", 
+          "nray:2B-GEOPROF-LIDAR"
+        ], 
+        "dataset": "2B-GEOPROF-LIDAR"
+      }, 
+      {
+        "variables": [], 
+        "dataset": "2B-CLDCLASS-LIDAR"
+      }, 
+      {
+        "variables": [
+          "RO_ice_distrib_width_param", 
+          "RO_ice_distrib_width_param_uncertainty", 
+          "RO_ice_effective_radius", 
+          "RO_ice_effective_radius_uncertainty", 
+          "RO_ice_num_conc_uncertainty", 
+          "RO_ice_number_conc", 
+          "RO_ice_phase_fraction", 
+          "RO_ice_water_content", 
+          "RO_ice_water_content_uncertainty", 
+          "RO_ice_water_path", 
+          "RO_ice_water_path_uncertainty", 
+          "RO_liq_distrib_width_param", 
+          "RO_liq_distrib_width_param_uncertainty", 
+          "RO_liq_effective_radius", 
+          "RO_liq_effective_radius_uncertainty", 
+          "RO_liq_num_conc_uncertainty", 
+          "RO_liq_number_conc", 
+          "RO_liq_water_content", 
+          "RO_liq_water_content_uncertainty", 
+          "RO_liq_water_path", 
+          "RO_liq_water_path_uncertainty"
+        ], 
+        "dataset": "2B-CWC-RO"
+      }, 
+      {
+        "variables": [
+          "snow_water_content", 
+          "snow_water_content_uncert", 
+          "snowfall_rate", 
+          "snowfall_rate_sfc", 
+          "snowfall_rate_sfc_confidence", 
+          "snowfall_rate_sfc_uncert", 
+          "snowfall_rate_uncert"
+        ], 
+        "dataset": "2C-SNOW-PROFILE"
+      }, 
+      {
+        "variables": [], 
+        "dataset": "2B-CWC-RVOD"
+      }
+    ]
+  }, 
+  {
+    "instrument": "MLS", 
+    "datasets": [
+      {
+        "variables": [], 
+        "dataset": "RHI"
+      }, 
+      {
+        "variables": [], 
+        "dataset": "IWC"
+      }, 
+      {
+        "variables": [
+          "H2O", 
+          "Pressure", 
+          "Quality"
+        ], 
+        "dataset": "H2O"
+      }, 
+      {
+        "variables": [
+          "L2gpValue", 
+          "Latitude", 
+          "LocalSolarTime", 
+          "Longitude"
+        ], 
+        "dataset": "N2O"
+      }, 
+      {
+        "variables": [], 
+        "dataset": "Temperature"
+      }
+    ]
+  }, 
+  {
+    "instrument": "CALIPSO", 
+    "datasets": [
+      {
+        "variables": [], 
+        "dataset": "CAL_LID_L2_01kmCLay"
+      }, 
+      {
+        "variables": [], 
+        "dataset": "CAL_LID_L2_333mCLay"
+      }, 
+      {
+        "variables": [], 
+        "dataset": "CAL_LID_L2_05kmALay"
+      }, 
+      {
+        "variables": [], 
+        "dataset": "CAL_LID_L2_05kmCLay"
+      }
+    ]
+  }, 
+  {
+    "instrument": "AIRS", 
+    "datasets": [
+      {
+        "variables": [
+          "GeoTrack:L1B_AIRS_Science", 
+          "GeoXTrack:L1B_AIRS_Science", 
+          "Latitude", 
+          "Longitude", 
+          "dust_flag", 
+          "radiances", 
+          "spectral_freq", 
+          "topog", 
+          "topog_err"
+        ], 
+        "dataset": "L1B_AIRS_Science"
+      }, 
+      {
+        "variables": [], 
+        "dataset": "L1B_VIS_Science"
+      }, 
+      {
+        "variables": [
+          "AIRSTrack:L2_Standard_atmospheric&surface_product", 
+          "CldFrcStd", 
+          "CldFrcStdErr", 
+          "GP_Height", 
+          "GP_Tropopause", 
+          "H2OMMRSat", 
+          "H2OMMRSat_liquid", 
+          "H2OMMRStd", 
+          "H2OMMRStdErr", 
+          "H2O_verticality", 
+          "Latitude", 
+          "Longitude", 
+          "MWSurfClass", 
+          "O3VMRStd", 
+          "O3VMRStdErr", 
+          "PBest", 
+          "PGood", 
+          "PSurfStd", 
+          "PTropopause", 
+          "Press_bot_mid_bndry", 
+          "Press_mid_top_bndry", 
+          "Qual_H2O", 
+          "Qual_Temp_Profile_Bot", 
+          "Qual_Temp_Profile_Mid", 
+          "Qual_Temp_Profile_Top", 
+          "TAirMWOnlyStd", 
+          "TAirStd", 
+          "TAirStdErr", 
+          "TSurfAir", 
+          "TSurfAirErr", 
+          "TSurfStd", 
+          "Time", 
+          "clrolr", 
+          "emisIRStd", 
+          "freqEmis", 
+          "glintlat", 
+          "glintlon", 
+          "landFrac", 
+          "nBestStd", 
+          "nGoodStd", 
+          "nStd_bot_mid_bndry", 
+          "nStd_mid_top_bndry", 
+          "nSurfStd", 
+          "olr", 
+          "olr_err", 
+          "pressH2O", 
+          "pressStd", 
+          "sat_lat", 
+          "sat_lon", 
+          "satazi", 
+          "satzen", 
+          "solazi", 
+          "solzen", 
+          "totH2OMWOnlyStd", 
+          "totH2OStdErr"
+        ], 
+        "dataset": "L2_Standard_atmospheric&surface_product"
+      }, 
+      {
+        "variables": [
+          "CldEmis", 
+          "CldRho", 
+          "CO_VMR_eff", 
+          "H2OCDSup", 
+          "H2OCDSupErr", 
+          "Latitude", 
+          "Longitude", 
+          "O3CDSup", 
+          "PCldTopStd", 
+          "PCldTopStdErr", 
+          "PGood", 
+          "PSurfStd", 
+          "TAirMWOnly", 
+          "TAirSup", 
+          "TAirSupErr", 
+          "TCldTopStd", 
+          "TCldTopStdErr", 
+          "TSurfStd", 
+          "TSurfStdErr", 
+          "T_Tropopause", 
+          "numCloud", 
+          "pressSupp", 
+          "pseudo_lapse_rate", 
+          "totH2OStd", 
+          "tsurf_forecast"
+        ], 
+        "dataset": "L2_Support_atmospheric&surface_product"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "command": "/home/ops/verdi/ops/measures/scripts/ingest_ceres.sh",
+  "imported_worker_files": {
+    "/home/ops/.netrc": ["/home/ops/.netrc"],
+    "/home/ops/.aws": ["/home/ops/.aws", "ro"],
+    "/home/ops/verdi/etc/measures_settings.cfg": "/home/ops/verdi/ops/measures/settings.cfg"
+  },
+  "recommended-queues": [ "factotum-job_worker-large" ],
+  "params": [
+    {   
+      "name": "id",
+      "destination": "positional"
+    },
+    {   
+      "name": "raw_url",
+      "destination": "localize"
+    },
+    {   
+      "name": "raw_file",
+      "destination": "positional"
+    },
+    {
+      "name": "prod_met",
+      "destination": "context"
+    }
+  ]
+}
